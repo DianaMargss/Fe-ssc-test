@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="../design/assets/spotify-icon.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/header.js"></script>
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div id="wrapper">
+    <!-- Sidebar -->
+    <div class="menu">
+      <img src="../design/assets/spotify_logo.svg" alt="Spotify">
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+         <ul class="nav sidebar-nav">
+             <li>
+                 <a href="#">HOME</a>
+             </li>
+             <li>
+                 <a href="#section-three">LEADREBOARD</a>
+             </li>
+             <li>
+                 <a href="#">PRIZES</a>
+             </li>
+             <li>
+                 <a href="#">F.A.Q.</a>
+             </li>
+             <li>
+                 <a href="#">OFFICIAL RULES</a>
+             </li>
+         </ul>
+     </nav>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+      <span class="hamb-top"></span>
+      <span class="hamb-middle"></span>
+    <span class="hamb-bottom"></span>
+        </button>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 principal-banner" style="background-image: url('../design/assets/background1.jpg')!important;  ">
+              <div class="row vertical-center-row ">
+                  <div class="col-md-12 "><img src="../design/assets/spotify_logo.svg" id="spotify_logo"/></div>
+                  <div class="col-md-12 "><img src="../design/assets/soundclash_logo.svg" id="soundclash_logo"/></div>
+                  <div class="col-md-12 "><h2 class="linea"><span><img src="../design/assets/maple.png" id="maple_logo"/></span></h2></div>
+                  <div class="col-md-12 "><p><strong>Think you can build the ultimate playlist?</strong></p></div>
+                  <div class="col-md-12 "><p>You could win an exclusive internship at Spotify Canada, plu weekly prize packs, free <br />Premium and tickets to summer concerts & festivals!</p></div>
+                  <div class="col-md-12 "><br />
+                    <button type="button" class="btn btn-primary btn-lg">GET STARTED</button>
+                    <button type="button" class="btn btn-secondary btn-lg">HOW IT WORKS</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- section 2 -->
+          <div class="row principal-banner" id="second-seccion" style="background-image: url('../design/assets/background2.jpg')!important;  ">
+            <div class="col-md-12"><h1>HOW IT WORKS</h1><br /></br></div>
+          <div class="col-md-4">
+            <img src="../design/assets/create.svg" alt=" Create" class="icons-works">
+            <h3>1. CREATE</h3>
+            <p>a 15-track playlist that defines you student.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="../design/assets/register.svg" alt="Register" class="icons-works">
+            <h3>2.REGISTER</h3>
+            <p>your playlist on Sound Clash using your Spotify username and password.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="../design/assets/share.svg" alt="Share" class="icons-works">
+            <h3>3.SHARE</h3>
+            <p>your playlist and get followers. Gain 25 followers to get your Spotify Prize Pack. The owners of the 5 most-followed playlists overall will interview for the internship.</p>
+          </div>
+          <div class="col-md-12 ">
+            <br />
+            <button type="button" class="btn btn-primary btn-lg">GET STARTED</button>
+          </div>
+          <div class="col-md-12">
+            <br />
+              <p>Need more info? Check out our <strong>FAQ.</strong></p>
+          </div>
+          <div class="col-md-12">
+            <br />
+            <img src="../design/assets/arrow_down.svg" alt="" class="icons-works">
+          </div>
+        </div>
+
+        <!-- section 3 LEADREBOARD -->
+        <div class="row principal-banner" id="section-three" style="background-image: url('../design/assets/background3.jpg')!important;  ">
+          <div class="col-md-12"><h1>LEADERBOARD</h1><br /></br></div>
+            <div class="col-md-12"><p>Share you playlist everywhere to get the most followers!</p></div>
+            <div class="col-md-12"><br />
+              <button type="button" class="btn btn-secondary btn-lg">
+                FILTER <i class="fa fa-angle-down"></i></button>
+            </div>
+            <!-- Tabs -->
+      <div class="col-md-6">
+        <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#menu1">HOT THIS WEEK</a></li>
+        <li><a data-toggle="tab" href="#menu2">ALL TIME</a></li>
+        </ul><br />
+      <div class="tab-content">
+        <div id="menu1" class="tab-pane fade in active">
+          <div class="row">
+            <div class="col-xs-6 col-md-2">
+              <h1>1</h1><br>
+              <img src="../design/assets/arrow_green_up.svg" class="icons-tabs" alt=""><br />
+              <span id="points-tabs-green">+3</span>
+            </div>
+            <div class="col-xs-6 col-md-4">
+              <img src="../design/assets/the_boat_club.png" class="image-tabs" alt="">
+            </div>
+            <div class="col-xs-6 content">
+              <h3>The Boat Club</h3>
+              <p>Oxford Brookes</p>
+              <button type="button" class="btn btn-primary btn-lg">GO TO PLAYLIST</button>
+            </div>
+          </div><hr>
+
+          <div class="row">
+            <div class="col-xs-6 col-md-2">
+              <h1>2</h1><br>
+              <img src="../design/assets/arrow_red_down.svg" class="icons-tabs" alt=""><br />
+              <span id="points-tabs-red">-1</span>
+            </div>
+            <div class="col-xs-6 col-md-4">
+              <img src="../design/assets/curc.png" class="image-tabs" alt="">
+            </div>
+            <div class="col-xs-6 content">
+              <h3>CURC</h3>
+              <p>Cardiff University</p>
+              <button type="button" class="btn btn-primary btn-lg">GO TO PLAYLIST</button>
+            </div>
+          </div><hr>
+
+          <div class="row">
+            <div class="col-xs-6 col-md-2">
+              <h1>3</h1><br>
+              <img src="../design/assets/dot_yellow.svg" class="icons-tabs" alt="">
+            </div>
+            <div class="col-xs-6 col-md-4">
+              <img src="../design/assets/projectd.png" class="image-tabs" alt="">
+            </div>
+            <div class="col-xs-6 content">
+              <h3>ProjectD</h3>
+              <p>University of York</p>
+              <button type="button" class="btn btn-primary btn-lg">GO TO PLAYLIST</button>
+            </div>
+          </div>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <div class="row">
+            <div class="col-xs-6 col-md-2">
+              <h1>1</h1><br>
+              <img src="../design/assets/arrow_red_down.svg" class="icons-tabs" alt=""><br />
+              <span id="points-tabs-red">-1</span>
+            </div>
+            <div class="col-xs-6 col-md-4">
+              <img src="../design/assets/curc.png" class="image-tabs" alt="">
+            </div>
+            <div class="col-xs-6 content">
+              <h3>CURC</h3>
+              <p>Cardiff University</p>
+              <button type="button" class="btn btn-primary btn-lg">GO TO PLAYLIST</button>
+            </div>
+          </div>
+        </div>
+      </div><!-- close tab -->
+    </div>
+  </div><!-- /seccion three -->
+</div><!-- /container -->
+</div><!-- /#page-content-wrapper -->
+</div>
+  </body>
+</html>
