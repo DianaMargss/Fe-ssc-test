@@ -1,2 +1,2 @@
 # Fe-ssc-test
-prueba técnica para la posición "Front End Web Developer"
+prueba "Front End Web Developer" HTML5/CSS/Bootstrap
